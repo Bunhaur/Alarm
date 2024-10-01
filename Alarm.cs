@@ -29,7 +29,6 @@ public class Alarm : MonoBehaviour
     public void OnExit()
     {
         StopVolumeChange();
-
         _changeVolumeWork = StartCoroutine(ChangeVolume(_minVolume));
     }
 
